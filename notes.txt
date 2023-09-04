@@ -145,3 +145,5 @@ git pull
 https://docs.github.com/en/authentication/connecting-to-github-with-ssh
 
 Лекция 19 - Начинаем создавать консольное приложение
+
+Лекция 20 - Условия
