@@ -118,3 +118,30 @@ git config --local user.email mail@site.com
 если что-то добавить то можно просмотреть статус: git status 
 можно добавлять файл определённый: git add file.ext
 для создания контрольной точки: git commit -a -m"Сообщение о коммите"
+просмотре изменений: git log 
+
+чтоб выложить в интернет нужен гитхаб
+создаём там новый репозиторий, потом раним команды:
+git remote add origin https://github.com/Lyuhon/React_30.08.git
+git branch -M main
+git push -u origin main
+
+потом после любых изменений можно создавать коммит и потом делать:
+git push
+
+
+Лекция 17 - GIT работа с других компов
+
+надо зайти в нужную папку и заранить команду
+git clone url....
+
+git pull
+эта команда добавляет обновления с репозитория
+
+можно скачать git Kraken для хорошего визуала
+
+
+Лекция 18 - GIT SSH ключ
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh
+
+Лекция 19 - Начинаем создавать консольное приложение
